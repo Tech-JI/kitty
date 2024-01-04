@@ -5,7 +5,7 @@
 *The fast, feature-rich, GPU based terminal emulator*
 
 <center class="half">
-    <img src="README/image-20240104161728855.png" width="250"/><img src="README/image-20240104161613258.png" width="500"/>
+    <img src="README/icon.png" width="250"/><img src="README/outlook.png" width="500"/>
 </center>
 
 This is a set of config files based on [Kitty](https://sw.kovidgoyal.net/kitty/) by [Hydraallen](https://github.com/Hydraallen). 
@@ -105,7 +105,7 @@ remember_window_size yes
 shell_integration no-title
 ```
 
-![config](README/1659390767.png)
+![config](README/conf.png)
 
 To save the changes and quit, please press `Escape` to exit the vim editor, then type `:wq`. 
 
@@ -113,7 +113,7 @@ Nano users can simply press `Ctrl+O` and `Ctrl+X` to save and exit.
 
 You may end up with an interface that looks like this: ()
 
-![terminal](README/1659390768.png)
+![terminal](README/end.png)
 
 ## Shortcuts
 
