@@ -1,12 +1,18 @@
 # Kitty
 
+
+
 ## Outlook
 
 *The fast, feature-rich, GPU based terminal emulator*
 
 <center class="half">
-    <img src="README/image-20240104161728855.png" width="250"/><img src="README/image-20240104161613258.png" width="500"/>
+    <img src="https://s2.loli.net/2024/01/04/ExD4pCyUsg5iGwe.png" width="250"/>
+    <img src="https://s2.loli.net/2024/01/04/Pql8YSnL7Maudcm.png" width="500"/>
 </center>
+
+
+
 
 This is a set of config files based on [Kitty](https://sw.kovidgoyal.net/kitty/) by [Hydraallen](https://github.com/Hydraallen). 
 
@@ -14,19 +20,19 @@ This is a set of config files based on [Kitty](https://sw.kovidgoyal.net/kitty/)
 
 ## Introduction
 
-​	*kitty* is designed for power keyboard users. To that end all its controls work with the keyboard (although it fully supports mouse interactions as well). Its configuration is a simple, human editable, single file for easy reproducibility (I like to store configuration in source control).
+​		*kitty* is designed for power keyboard users. To that end all its controls work with the keyboard (although it fully supports mouse interactions as well). Its configuration is a simple, human editable, single file for easy reproducibility (I like to store configuration in source control).
 
-​	The code in *kitty* is designed to be simple, modular and hackable. It is written in a mix of C (for performance sensitive parts), Python (for easy extensibility and flexibility of the UI) and Go (for the command line [kittens](https://sw.kovidgoyal.net/kitty/glossary/#term-kittens)). It does not depend on any large and complex UI toolkit, using only OpenGL for rendering everything.
+​		The code in *kitty* is designed to be simple, modular and hackable. It is written in a mix of C (for performance sensitive parts), Python (for easy extensibility and flexibility of the UI) and Go (for the command line [kittens](https://sw.kovidgoyal.net/kitty/glossary/#term-kittens)). It does not depend on any large and complex UI toolkit, using only OpenGL for rendering everything.
 
-​	Finally, *kitty* is designed from the ground up to support all modern terminal features, such as Unicode, true color, bold/italic fonts, text formatting, etc. It even extends existing text formatting escape codes, to add support for features not available elsewhere, such as colored and styled (curly) underlines. One of the design goals of *kitty* is to be easily extensible so that new features can be added in the future with relatively little effort.
+​		Finally, *kitty* is designed from the ground up to support all modern terminal features, such as Unicode, true color, bold/italic fonts, text formatting, etc. It even extends existing text formatting escape codes, to add support for features not available elsewhere, such as colored and styled (curly) underlines. One of the design goals of *kitty* is to be easily extensible so that new features can be added in the future with relatively little effort.
 
 ***
 
 ## Installation
 
-​	Kitty is available in the official repositories of all major Linux distributions, and you can use your favorite package manager to install the *kitty* package. However, note that some Linux distribution packages are woefully outdated. *kitty* is available in a vast number of package repositories for macOS and Linux.
+​		Kitty is available in the official repositories of all major Linux distributions, and you can use your favorite package manager to install the *kitty* package. However, note that some Linux distribution packages are woefully outdated. *kitty* is available in a vast number of package repositories for macOS and Linux.
 
-To install it, simply open a terminal and type the following command depending on your operating system:
+​		To install it, simply open a terminal and type the following command depending on your operating system:
 
 -  On Ubuntu and Debian-based distributions:
 
@@ -46,15 +52,15 @@ $ sudo pacman -S kitty
 $ sudo dnf -y install kitty
 ```
 
-After the installation process is complete, you can launch it from the Applications menu.
+​		After the installation process is complete, you can launch it from the Applications menu.
 
-By the way, if you’re interested in the original way of installation, you can click [here](https://sw.kovidgoyal.net/kitty/quickstart/) for more information.
+​		By the way, if you’re interested in the original way of installation, you can click [here](https://sw.kovidgoyal.net/kitty/quickstart/) for more information.
 
 ***
 
 ## Customization
 
-​	Obviously, you can use the default settings and themes in your Kitty terminal, it's very useful. However, I will show you some basic optional customizations that you can apply to your Kitty to make it even more beautiful.
+​		Obviously, you can use the default settings and themes in your Kitty terminal, it's very useful. However, I will show you some basic optional customizations that you can apply to your Kitty to make it even more beautiful.
 
 If you don’t want to meet the trouble of configuring your own file, then you can clone my config file by using:
 
@@ -62,9 +68,9 @@ If you don’t want to meet the trouble of configuring your own file, then you c
 git clone git@github.com:Hydraallen/kitty.git ~/.config/kitty/
 ```
 
-​	Or, if you enjoy these troubleshooting process, then keep to the following steps. 
+​		Or, if you enjoy these troubleshooting process, then keep to the following steps. 
 
-​	To create a configuration file `~/.config/kitty/` in the directory, you can do it in your manually create a new one in Explorer, or simply tape the following lines into your terminal.:
+​		To create a configuration file `~/.config/kitty/` in the directory, you can do it in your manually create a new one in Explorer, or simply tape the following lines into your terminal.:
 
 - For Vim users:
 
@@ -78,7 +84,7 @@ vim ~/.config/kitty/kitty.conf
 nano ~/.config/kitty/kitty.conf
 ```
 
-Copy and paste the following lines into the file:
+​		Copy and paste the following lines into the file:
 
 ```bash
 # font_family      Input Mono 
@@ -105,15 +111,23 @@ remember_window_size yes
 shell_integration no-title
 ```
 
-![config](README/1659390767.png)
 
-To save the changes and quit, please press `Escape` to exit the vim editor, then type `:wq`. 
+​		To save the changes and quit, please press `Escape` to exit the vim editor, then type `:wq`. 
 
-Nano users can simply press `Ctrl+O` and `Ctrl+X` to save and exit.
+​		Nano users can simply press `Ctrl+O` and `Ctrl+X` to save and exit.
 
-You may end up with an interface that looks like this: ()
+<center class="half">
+    <img src="https://s2.loli.net/2024/01/04/8gUYjarof2KsReN.png" width="700"/>
+</center>
 
-![terminal](README/1659390768.png)
+
+​		Tape `neofetch` if you’ve downloaded. And you may end up with an interface that looks similar to this: 
+
+<center class="half">
+    <img src="https://s2.loli.net/2024/01/04/vy3zT5omBOLrCIN.png" width="700"/>
+</center>
+
+ 
 
 ## Shortcuts
 
@@ -139,10 +153,10 @@ You may end up with an interface that looks like this: ()
 | Close window          | [`ctrl+shift+w`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Close-window) (also ⇧+⌘+d on macOS) |
 | Resize window         | [`ctrl+shift+r`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Start-resizing-window) (also ⌘+r on macOS) |
 | Next window           | [`ctrl+shift+\]`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Next-window) |
-| Previous window       | [`ctrl+shift+[`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Previous-window) |
+| Previous window       | [` ctrl+shift+[ `](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Previous-window) |
 | Move window forward   | [`ctrl+shift+f`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-forward) |
 | Move window backward  | [`ctrl+shift+b`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-backward) |
-| Move window to top    | [`ctrl+shift+``](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-to-top) |
+| Move window to top    | [`ctrl+shift+`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-to-top) |
 | Visually focus window | [`ctrl+shift+f7`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Visually-select-and-focus-window) |
 | Visually swap window  | [`ctrl+shift+f8`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Visually-swap-window-with-another) |
 | Focus specific window | [`ctrl+shift+1`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.First-window), [`ctrl+shift+2`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Second-window) … [`ctrl+shift+0`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Tenth-window) (also ⌘+1, ⌘+2 … ⌘+9 on macOS) (clockwise from the top-left) |
@@ -181,5 +195,5 @@ Please search the [Frequently Asked Questions](https://sw.kovidgoyal.net/kitty/f
 
 ## Contrbuting
 
-​	If you encounter any problems in using the project, you can [submit an issue](https://github.com/TechJI-2023/kitty/issues/new) or fork this project to submit an pull request. For pull requests, please be sure to have consistent style to existing modules, follow [PEP 8](https://www.python.org/dev/peps/pep-0008/), have clear identifier naming, and have proper comments.
+​		If you encounter any problems in using the project, you can [submit an issue](https://github.com/TechJI-2023/kitty/issues/new) or fork this project to submit an pull request. For pull requests, please be sure to have consistent style to existing modules, follow [PEP 8](https://www.python.org/dev/peps/pep-0008/), have clear identifier naming, and have proper comments.
 
