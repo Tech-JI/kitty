@@ -11,9 +11,6 @@
     <img src="https://s2.loli.net/2024/01/04/Pql8YSnL7Maudcm.png" width="500"/>
 </center>
 
-
-
-
 This is a set of config files based on [Kitty](https://sw.kovidgoyal.net/kitty/) by [Hydraallen](https://github.com/Hydraallen). 
 
 ***
@@ -111,7 +108,6 @@ remember_window_size yes
 shell_integration no-title
 ```
 
-
 ​		To save the changes and quit, please press `Escape` to exit the vim editor, then type `:wq`. 
 
 ​		Nano users can simply press `Ctrl+O` and `Ctrl+X` to save and exit.
@@ -119,15 +115,12 @@ shell_integration no-title
 <center class="half">
     <img src="https://s2.loli.net/2024/01/04/8gUYjarof2KsReN.png" width="700"/>
 </center>
-
-
 ​		Tape `neofetch` if you’ve downloaded. And you may end up with an interface that looks similar to this: 
 
 <center class="half">
     <img src="https://s2.loli.net/2024/01/04/vy3zT5omBOLrCIN.png" width="700"/>
 </center>
 
- 
 
 ## Shortcuts
 
@@ -153,7 +146,7 @@ shell_integration no-title
 | Close window          | [`ctrl+shift+w`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Close-window) (also ⇧+⌘+d on macOS) |
 | Resize window         | [`ctrl+shift+r`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Start-resizing-window) (also ⌘+r on macOS) |
 | Next window           | [`ctrl+shift+\]`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Next-window) |
-| Previous window       | [` ctrl+shift+[ `](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Previous-window) |
+| Previous window       | [` ctrl+shift+[ `]                                           |
 | Move window forward   | [`ctrl+shift+f`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-forward) |
 | Move window backward  | [`ctrl+shift+b`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-backward) |
 | Move window to top    | [`ctrl+shift+`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-to-top) |
