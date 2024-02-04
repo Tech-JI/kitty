@@ -49,6 +49,12 @@ $ sudo pacman -S kitty
 $ sudo dnf -y install kitty
 ```
 
+- On MacOS
+
+```bash
+$ brew install kitty
+```
+
 ​		After the installation process is complete, you can launch it from the Applications menu.
 
 ​		By the way, if you’re interested in the original way of installation, you can click [here](https://sw.kovidgoyal.net/kitty/quickstart/) for more information.
@@ -59,7 +65,7 @@ $ sudo dnf -y install kitty
 
 ​		Obviously, you can use the default settings and themes in your Kitty terminal, it's very useful. However, I will show you some basic optional customizations that you can apply to your Kitty to make it even more beautiful.
 
-If you don’t want to meet the trouble of configuring your own file, then you can clone my config file by using:
+If you don’t want to meet the trouble of configuring your own file, then you can clone sample config file by using:
 
 ```bash
 git clone git@github.com:Hydraallen/kitty.git ~/.config/kitty/
@@ -75,7 +81,7 @@ git clone git@github.com:Hydraallen/kitty.git ~/.config/kitty/
 vim ~/.config/kitty/kitty.conf
 ```
 
-- For Nano users:
+- For Nano users (not recommanded):
 
 ```bash
 nano ~/.config/kitty/kitty.conf
@@ -181,6 +187,20 @@ The full list of actions that can be mapped to key presses is available [here](h
 | Decrease background opacity | [`ctrl+shift+a>l`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Decrease-background-opacity) |
 | Full background opacity     | [`ctrl+shift+a>1`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Make-background-fully-opaque) |
 | Reset background opacity    | [`ctrl+shift+a>d`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Reset-background-opacity) |
+
+## Other tools
+
+### [termpdf.py](https://github.com/dsanson/termpdf.py)
+
+A terminal PDF/DJVU/CBR viewer
+
+### [mdcat](https://github.com/lunaryorn/mdcat)
+
+Display markdown files nicely formatted with images in the terminal
+
+### [ranger](https://github.com/ranger/ranger)
+
+A terminal file manager, with previews of file contents powered by kitty’s graphics protocol.
 
 ## Q&A
 
