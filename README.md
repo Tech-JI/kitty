@@ -202,6 +202,14 @@ Display markdown files nicely formatted with images in the terminal
 
 A terminal file manager, with previews of file contents powered by kitty’s graphics protocol.
 
+### [ssh](https://sw.kovidgoyal.net/kitty/kittens/ssh/)
+
+If something went wrong, please add the following line in your `zshrc` or `bashrc`.
+
+```shell
+export TERM=xterm # kitty bug
+```
+
 ## Q&A
 
 Please search the [Frequently Asked Questions](https://sw.kovidgoyal.net/kitty/faq/) carefully before asking and contact TechJI members if needed. 
