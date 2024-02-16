@@ -218,3 +218,6 @@ Please search the [Frequently Asked Questions](https://sw.kovidgoyal.net/kitty/f
 
 ​		If you encounter any problems in using the project, you can [submit an issue](https://github.com/TechJI-2023/kitty/issues/new) or fork this project to submit an pull request. For pull requests, please be sure to have consistent style to existing modules, follow [PEP 8](https://www.python.org/dev/peps/pep-0008/), have clear identifier naming, and have proper comments.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=TechJI-2023/kitty&type=Date)](https://star-history.com/#TechJI-2023/kitty&Date)
